@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Japonés 800</title>
+<style>
+:root{--bg:#000;--fg:#fff;--y:#ffe14d;--c:#5ee6ff;--dim:#b8b8b8;box-sizing:border-box}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;overflow:hidden}
+#app{width:600px;height:600px;max-width:100%;max-height:100%;margin:0 auto;padding:24px;display:flex;flex-direction:column}
+h1{margin:0 0 14px;font-size:34px;color:var(--y);font-weight:800}
+.grid{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(5,1fr);gap:10px}
+.cell{border:3px solid #555;border-radius:14px;padding:6px 14px;display:flex;flex-direction:column;justify-content:center}
+.cell b{font-size:30px}.cell span{font-size:20px;color:var(--dim)}
+.cell.on{border-color:var(--y);background:var(--y);color:#000}.cell.on span{color:#222}
+.top{display:flex;justify-content:space-between;font-size:24px;font-weight:700;color:var(--y)}
+.bar{height:8px;background:#333;border-radius:4px;margin:10px 0}.bar i{display:block;height:100%;background:var(--y);border-radius:4px}
+.card{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:12px}
+.w{font-size:150px;font-weight:800;line-height:1.1;white-space:nowrap}
+.k{font-size:64px;font-weight:700;color:var(--y);white-space:nowrap}
+.es{font-size:46px;font-weight:800;color:var(--c)}
+.j{font-size:34px;font-weight:600;border-top:3px solid #555;padding-top:12px;width:100%}
+.js{font-size:26px;color:var(--dim)}
+.hint{font-size:20px;color:var(--dim);text-align:center}
+</style></head><body><div id="app"></div>
+<script src="data.js"></script>
+<script src="app.js"></script></body></html>
