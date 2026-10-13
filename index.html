@@ -8,7 +8,8 @@
 html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;overflow:hidden}
 #app{width:600px;height:600px;max-width:100%;max-height:100%;margin:0 auto;padding:24px;display:flex;flex-direction:column}
 h1{margin:0 0 14px;font-size:34px;color:var(--y);font-weight:800}
-.grid{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(5,1fr);gap:10px}
+.grid{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(6,1fr);gap:8px}
+.cell.x{grid-column:1/-1}
 .cell{border:3px solid #555;border-radius:14px;padding:6px 14px;display:flex;flex-direction:column;justify-content:center}
 .cell b{font-size:30px}.cell span{font-size:20px;color:var(--dim)}
 .cell.on{border-color:var(--y);background:var(--y);color:#000}.cell.on span{color:#222}

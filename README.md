@@ -19,10 +19,13 @@ Los datos están en la constante `D` dentro de `data.js`. Un nivel es un bloque 
 palabra|lectura|español|frase|frase en español
 ```
 
+## Nivel extra: Hiragana
+
+El menú incluye un nivel extra con 104 caracteres agrupados: vocales, filas K S T N H M Y R W/N, dakuten (G Z D B), handakuten (P) y sílabas combinadas. Cada tarjeta muestra el carácter y, al deslizar a la derecha, su sonido en alfabeto latino, el grupo y una palabra de ejemplo. Los datos están en la constante `H` de `data.js`.
+
 ## Estado
 
-- Nivel 1 y 2: 80 palabras cada uno
-- Niveles 3 a 10: 5 palabras de muestra (por completar)
+- Niveles 1 a 10: 80 palabras cada uno (800 en total) + nivel extra de hiragana (104 caracteres)
 
 ## Publicar con GitHub Pages
 
